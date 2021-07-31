@@ -1,0 +1,138 @@
+.main-footer {
+    background-color: #0ea443;
+    color: white;
+}
+
+.main-footer a {
+    color: white;
+
+}
+
+.main-footer a:hover {
+    color: black;
+    transition: .5s ease-in-out;
+
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 6px 1px lightgrey;
+    padding: 42px 20px !important;
+}
+
+.login-box-body {
+    background: #fff;
+    padding: 20px;
+    color: #444;
+    border-top: 0;
+    color: #666;
+}
+
+.login-box-msg {
+    margin-top: -21px;
+    font-size: 22px;
+}
+
+.my-box {
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.modal-header {
+    background-color: #0ea443;
+    color: white;
+}
+.modal-header h4 {
+    display: inline-block;
+}
+.close {
+    opacity: 1;
+    color: white;
+}
+
+.custom_submit_btn {
+    background-color: #0ea443;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+}
+.custom_submit_btn:hover{
+	color: whitesmoke;
+}
+
+/* .ajax-loader {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.78);
+    z-index: 1105;
+	overflow-y: hidden;
+
+}
+.ajax-loader span {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    line-height: 5rem;
+    color: white;
+} */
+
+.a-loader-box {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255, .9);
+    align-items: center;
+    z-index: 10000;
+    text-align: center;
+    display: none;
+}
+.a-loader-inner-col {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.a-loader-inner-col .spin-loader {
+    font-size: 35px;
+    font-weight: bold;
+	color: #0ea443;
+}
+.a-loader-inner-col .spin-text {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 13px;
+}
+
+.category_status{
+	width: 73px;
+}
+
+.img-profile {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+.img-profile img{
+	width: 86%;
+    margin-left: 31px;
+    height: 241px;
+}
+
+.red{
+	color: red;
+}
